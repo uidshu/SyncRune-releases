@@ -1,0 +1,28 @@
+name: Предложение
+description: Предложить функцию, улучшение или изменение интерфейса.
+title: "[Предложение] "
+body:
+  - type: markdown
+    attributes:
+      value: Сообщение будет публичным. Сначала проверьте, нет ли похожего предложения.
+  - type: textarea
+    id: need
+    attributes:
+      label: Какую задачу нужно решить?
+      description: Опишите, чего не хватает или что неудобно.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Что предлагаете?
+      description: Если есть идея решения, опишите её.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Проверка данных
+      options:
+        - label: В описании и приложенных файлах нет личных финансовых данных, выписок, чеков, документов, ключей и кода восстановления.
+          required: true
