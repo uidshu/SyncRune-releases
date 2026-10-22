@@ -1,36 +1,51 @@
 # SyncRune
 
-Локальное приложение для личного учёта финансов: счета и операции, аналитика расходов, лимиты и финансовые цели. Импортирует CSV, TSV, TXT и XLSX, сохраняет зашифрованные резервные копии.
+**English** · [Русский](README.ru.md)
 
-**1.0 Beta · Windows 10 22H2 / Windows 11 · x64**  
-Автор — Shu Everen.
+**Personal finance, stored locally.**
 
-## Скачать
+SyncRune is a personal finance app for Windows. Track accounts and transactions, understand your spending, and plan your budget. Your financial data is processed on your computer, without registration or bank connections.
 
-[**Скачать SyncRune-Setup.exe**](https://github.com/uidshu/SyncRune-releases/releases/download/v1.0.0-beta/SyncRune-Setup.exe) · [Описание выпуска и контрольная сумма](https://github.com/uidshu/SyncRune-releases/releases/tag/v1.0.0-beta)
+**1.0 Beta · Windows 10 22H2 / Windows 11 · x64**
 
-Запустите установщик, затем откройте SyncRune через меню «Пуск». Python и Node.js не нужны. Требуются WebView2 Runtime и .NET Framework 4.8; установщик проверяет их наличие.
+## Download
 
-## Статус беты
+[**Download for Windows**](https://github.com/uidshu/SyncRune-releases/releases/download/v1.0.0-beta/SyncRune-Setup.exe) · [Release notes & checksum](https://github.com/uidshu/SyncRune-releases/releases/tag/v1.0.0-beta)
 
-Первая бета опубликована и доступна тестировщикам. Сейчас собирается обратная связь, исправляются обнаруженные ошибки и проверяется совместимость импорта выписок.
+Run `SyncRune-Setup.exe`, complete the installation, and open SyncRune from the Start menu. Before updating, close the app and save a backup.
 
-В существующем выпуске **1.0 Beta** заменён установщик: обновлены оформление, шрифты и компоновка страниц, исправлен завершающий текст. Версия приложения и тег `v1.0.0-beta` сохранены.
+Python and Node.js are not required. The installer checks for WebView2 Runtime and .NET Framework 4.8.
 
-Установщик проверен на текущем компьютере в изолированных сценариях и при масштабе Windows **100%, 125%, 150% и 175%**. Масштаб 200% пока не проверен.
+## Features
 
-Это предварительный выпуск для тестирования. Возможны ошибки — сохраняйте отдельные копии и пока проверяйте приложение на искусственных данных, без реальных выписок, чеков и документов. Не используйте бету как единственное хранилище важных записей.
+- Accounts, income, expenses, and transfers.
+- Spending analytics by category and period.
+- Spending limits and financial goals.
+- CSV, TSV, TXT, and XLSX import; CSV transaction export.
+- Encrypted backups and data recovery.
 
-Проверки на другом компьютере и чистых Windows 10 / 11 ещё не завершены. Сборка не подписана цифровой подписью; автообновления нет.
+## Beta status
 
-## Обратная связь
+SyncRune is currently in beta. Feedback and bug reports help improve reliability and import compatibility.
 
-[**Сообщить об ошибке или предложить улучшение**](https://github.com/uidshu/SyncRune-releases/issues/new/choose)
+Please use sample data for testing, without real bank statements, receipts, or personal documents. Keep separate backups of important records, and do not use this beta as your only record of important financial information.
 
-Для сообщения нужен аккаунт GitHub. Выберите форму «Ошибка» или «Предложение». Сообщения публичны — не прикладывайте личные финансовые данные, ключи и код восстановления.
+The installer has been tested on the developer's computer in isolated scenarios. Testing on another computer and clean Windows 10 / 11 installations is still pending. The build is unsigned, and automatic updates are not available.
 
-## Документы
+## Feedback
 
-[Условия беты](BETA-TERMS.txt) · [Данные и приватность](PRIVACY.txt) · [Лицензии компонентов](THIRD-PARTY-NOTICES.txt)
+[**Report a bug**](https://github.com/uidshu/SyncRune-releases/issues/new?template=bug.yml) · [**Suggest a feature**](https://github.com/uidshu/SyncRune-releases/issues/new?template=feature.yml)
 
-Этот репозиторий содержит сборки, документы и обратную связь. Исходный код приложения хранится отдельно и не публикуется.
+A GitHub account is required. Reports are public; please do not include personal financial data, bank statements, receipts, keys, or recovery codes. The issue forms are currently in Russian.
+
+## Documents
+
+[Beta terms](BETA-TERMS.txt) · [Privacy](PRIVACY.txt) · [Third-party notices](THIRD-PARTY-NOTICES.txt)
+
+The beta terms and privacy document are currently in Russian.
+
+---
+
+Created by **Shu Everen**.
+
+This repository hosts application releases, documents, and feedback. The application source code is maintained separately and is not public.
