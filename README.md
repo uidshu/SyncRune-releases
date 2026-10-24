@@ -6,11 +6,11 @@
 
 SyncRune is a personal finance app for Windows. Track accounts and transactions, understand your spending, and plan your budget. Your financial data is processed on your computer, without registration or bank connections.
 
-**1.0 Beta · Windows 10 22H2 / Windows 11 · x64**
+**1.1 Beta · Windows 10 22H2 / Windows 11 · x64**
 
 ## Download
 
-[**Download for Windows**](https://github.com/uidshu/SyncRune-releases/releases/download/v1.0.0-beta/SyncRune-Setup.exe) · [Release notes & checksum](https://github.com/uidshu/SyncRune-releases/releases/tag/v1.0.0-beta)
+[**Download for Windows**](https://github.com/uidshu/SyncRune-releases/releases/download/v1.1.0-beta/SyncRune-Setup.exe) · [Release notes & checksum](https://github.com/uidshu/SyncRune-releases/releases/tag/v1.1.0-beta)
 
 Run `SyncRune-Setup.exe`, complete the installation, and open SyncRune from the Start menu. Before updating, close the app and save a backup.
 
@@ -30,7 +30,7 @@ SyncRune is currently in beta. Feedback and bug reports help improve reliability
 
 Please use sample data for testing, without real bank statements, receipts, or personal documents. Keep separate backups of important records, and do not use this beta as your only record of important financial information.
 
-The installer has been tested on the developer's computer in isolated scenarios. Testing on another computer and clean Windows 10 / 11 installations is still pending. The build is unsigned, and automatic updates are not available.
+The installer has been checked in isolated scenarios on the developer's computer and in a clean Windows 11 Sandbox. Windows 10 and other computers remain unverified. The build is unsigned, and automatic updates are not available.
 
 ## Feedback
 
